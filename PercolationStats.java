@@ -60,7 +60,7 @@ public class PercolationStats {
 
         StdOut.print("95% confidence interval = [");
         StdOut.print(percolationStatsModel.confidenceLo());
-        StdOut.print("; ");
+        StdOut.print(", ");
         StdOut.print(percolationStatsModel.confidenceHi());
         StdOut.println("]");
     }
